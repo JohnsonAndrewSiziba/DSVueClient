@@ -34,3 +34,7 @@ All that’s required to do is to add one file to our project and one buildpack 
 "/**": "index.html"
 }
 }
+
+
+heroku buildpacks:add heroku/nodejs
+heroku buildpacks:add https://github.com/heroku/heroku-buildpack-static
